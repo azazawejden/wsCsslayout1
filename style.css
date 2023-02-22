@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@1,300&display=swap");
+/* css header */
+#logo {
+  width: 268px;
+  height: 33px;
+}
+header {
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  width: 100%;
+  top: 0%;
+  background-color: white;
+}
+.menu {
+  display: flex;
+  gap: 20px;
+  font-family: Roboto, Arial, sans-serif;
+  color: #ababab;
+}
+.menu-item {
+  list-style: none;
+  cursor: pointer;
+}
+.menu-item:hover {
+  color: #00b390;
+}
+
+.drop-dawn-menu {
+    position: absolute;
+  display: none;
+  list-style: none;
+  box-shadow: 0px 5px 10px 0px #d3cfc9;
+  color: #ababab;
+  background-color: white;
+}
+.dropbtn:hover .drop-dawn-menu {
+  display: flex;
+  flex-direction: column;
+  margin-left: -100px;
+  min-width: 220px;
+  justify-content: space-around;
+  height: 200px;
+}
+.dropdawnitem:hover {
+  color: #00b390;
+  padding: 12px 16px;
+
+  background-color: #ababab;
+}
+.title {
+  text-align: center;
+  margin-top: 100px;
+}
+.title h1 {
+  color: #00b39b;
+  font-size: 2, 125rem;
+  font-family: "Work Sans ", Arial, sans-serif;
+}
+.paragraphe{
+    display: flex;
+    width: 1000px;
+    margin: 0 auto;
+    gap: 20px;
+}
+.paragraphe p{
+    color:#747474 ;
+    font-size: 16px;
+    font-family: Roboto, Arial, sans-serif;
+    line-height: 28px;
+    font-weight: 400px;
+    
+}
+
+.boxes{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+width: 1000px;
+margin: 0 auto;
+gap: 10px;
+}
+.box{
+   font-family:  Roboto, Arial, sans-serif;
+   color: #ffffff;
+   border-radius: 10px;
+width: 311px;
+height: 345px;
+padding: 32px 32px 0 32px;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+}
+.platform{
+  display: flex;
+  color: #747474;
+  width: 1268.8px;
+  height: 600px;
+  font-size: 16px;
+  font-family: Roboto, Arial, sans-serif;
+  background: #e5faf8;
+  margin: 50px 0px 88px;
+  padding: 30px 0px 10px;
+}
+.platform h2{
+  color:#00b39b ;
+  width: 477.5px;
+  height: 88.4px;
+  font-size: 34px;
+  font-family: "Work Sans ", Arial, sans-serif;
+}
+.platform p{
+  color:#747474 ;
+  font-size: 16px;
+  font-family: Roboto, Arial, sans-serif;
+  line-height: 28px;
+  font-weight: 400px;
+}
+.categories { 
+  display: flex;
+  background: #ffffff;
+  padding: 15px;
+  font-size: 13px;
+  text-align: center;
+  box-shadow: 0 1px 4px 0;
+  height: 250px;
+  gap: 20px;
+}
+div{
+  display: inline-block;
+}
+.categories h1{
+  color:#00b39b ;
+  width: 198.75px;
+  height: 62.4px;
+  font-size: 24px;
+  font-family: "Work Sans ", Arial, sans-serif;
+  margin: 12px 0px;
+}
+.the-live{
+  display: flex;
+  text-align: center;
+  width: 460px;
+  height: 172.4px;
+  color: #747474;
+  font-size: 14px;
+  font-family: Roboto, Arial, sans-serif;
+  margin: 0px 257.5px 67px;
+}
+.the-live p{
+  color: #747474;
+  width: 460px;
+  height: 72px;
+  font-size: 14px;
+  font-family: Roboto, Arial, sans-serif;
+  margin: 22.4px 0px;
+}
+.the-live h1{
+  color: #00b39b;
+  width: 460px;
+  height: 78px;
+  font-size: 30px;
+  font-family: "Work Sans ", Arial, sans-serif;
+
+}
+
+.galerie{
+  display: inline-block;
+  position: static;
+ color: white;
+ width: 100px;
+ height: 300px;
+ font-size: 16px;
+ font-family: Roboto, Arial, sans-serif;
+ padding: 10px;
+top: 0%;
+}
+.office:hover {
+  color: white;
+  padding: 10px;
+  width: 309px;
+  height: 278px;
+  background-color: #ababab;
+}
+/*footer*/
+footer{
+  color: #ababab;
+  text-align: center;
+  width: 1015px;
+  height: 90px;
+  font-size: 12px;
+  font-family: Roboto, Arial, sans-serif;
+  margin: 0px 126.9px; 
+  padding: 0px 20px;
+  
+}
